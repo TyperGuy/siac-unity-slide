@@ -7,6 +7,9 @@
   transition: transform 0.3s ease-in-out;
   margin: 10px;
 }
+.unityChildContainer{
+  
+}
 
 
 .unityContainer:hover{
@@ -18,23 +21,18 @@
   height: 230px;
   border-radius:10px 10px 0 0;
 }
-.unity-simple-line{
+.unitySimpleLine{
   background-color:#000000;
-  opacity: 0.5;
-  margin: 0 20px;
-  border-radius:50%;
-}
-.hr{
+  opacity: .2;
   margin-bottom: 10px;
 }
-.unity-name{
+
+.unityName{
   color: #241F20;
   font-size: 1.3rem;
   font-weight: 500;
-  padding-right: 5px;
 }
 .row{
-  margin: 5px 20px;
   color: #241F20;
   list-style: none;
   display: flex;
