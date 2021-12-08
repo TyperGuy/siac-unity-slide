@@ -29,6 +29,7 @@
   color: #241F20;
   font-size: 1.3rem;
   font-weight: 500;
+  margin-bottom: 2px;
 }
 .row{
   color: #241F20;
@@ -41,8 +42,7 @@
   font-size: .8rem;
   background-color:#f1f3f5;
   border-radius:8px;
-  padding:5px 10px;
-  margin: 10px  10px 10px 0;
+  margin-right: 10px;
 }
 
 .unityDesciption{
@@ -65,5 +65,12 @@
   border: 0;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
   transform:scale(.9,.9);
+}
+.adress{
+  font-size:.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #a2a1a1;
 }
 

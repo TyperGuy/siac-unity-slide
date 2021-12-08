@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './Unity.module.css';
 import img from '../../assets/black-yellow.jpg';
+import { MdFmdGood } from "react-icons/md";
 
 
 function Unity(){
@@ -11,16 +12,12 @@ function Unity(){
     <div className={Styles.unityContainer}>
       <img className={Styles.unityIMG} src={img} alt=""/>
       <div className={Styles.unityChildContainer}>
-        
-        <p className={Styles.unityName}>SIAC-Kalawenda</p>
-        <div className="row location">
-          <p><i className="fas fa-map-marker-alt"/> <span>{local}</span></p>
+        <h1 className={Styles.unityName}>SIAC-Kalawenda</h1>
+        <div className={Styles.adress}>
+          <MdFmdGood/> 
+          <span>{local}</span>
         </div>
         <hr className={Styles.unitySimpleLine}/>
-        <div className={Styles.row}>
-           <li ><i className="fas fa-clock"/> <span>Abre: {entrada}</span></li>
-           <li ><i className="fas fa-clock"/> <span>Fecha: {saida}</span></li>
-        </div>
         <p className={Styles.unityDesciption}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Porro totam reiciendis deleniti dignissi...
