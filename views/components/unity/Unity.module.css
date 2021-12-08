@@ -1,5 +1,5 @@
 .unityContainer{
-  width: 360px;
+  width: 340px;
   background-color: rgb(255, 255, 255);
   border: 2px solid #f1f3f5;
   border-radius:10px;
@@ -8,7 +8,7 @@
   margin: 10px;
 }
 .unityChildContainer{
-  
+  margin: 20px;
 }
 
 
@@ -24,7 +24,7 @@
 .unitySimpleLine{
   background-color:#000000;
   opacity: .2;
-  margin-bottom: 10px;
+  margin-bottom: 10px 0px;
 }
 
 .unityName{
@@ -38,14 +38,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.unity-estado{
-  color: #241F20;
-  font-size: .8rem;
-  background-color: rgba(0, 255, 0, 0.2);
-  border-radius:15px;
-  padding:1px 10px;
 }
 .row li{
   font-size: .8rem;
