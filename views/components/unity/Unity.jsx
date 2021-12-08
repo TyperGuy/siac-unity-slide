@@ -21,12 +21,12 @@ function Unity(){
            <li ><i className="fas fa-clock"/> <span>Abre: {entrada}</span></li>
            <li ><i className="fas fa-clock"/> <span>Fecha: {saida}</span></li>
         </div>
-        <p className="unity-descricao">
+        <p className={Styles.unityDesciption}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Porro totam reiciendis deleniti dignissi...
         </p>
         
-        <button className="locate-btn">Leva-me lá</button>
+        <button className={Styles.locateBtn}>Leva-me lá</button>
       </div>   
     </div>
   );
