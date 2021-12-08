@@ -1,5 +1,5 @@
 import React from 'react';
-import './Unity.css';
+import Styles from './Unity.module.css';
 import img from '../../assets/black-yellow.jpg';
 
 
@@ -8,8 +8,8 @@ function Unity(){
   const saida ='10:10';
   const local = 'Luanda, Talatona, Via A12';
   return (
-    <div className="unity-container">
-      <img className="unity-img" src={img} alt=""/>
+    <div className={Styles.unityContainer}>
+      <img className={Styles.unityIMG} src={img} alt=""/>
       <div className="row"><p className="unity-name">SIAC-Kalawenda</p><span className="unity-estado">Aberto</span></div>
       <hr className="unity-simple-line"/>
       <div className="row">

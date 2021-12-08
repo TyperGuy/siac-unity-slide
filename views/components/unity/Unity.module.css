@@ -1,4 +1,4 @@
-.unity-container{
+.unityContainer{
   width: 360px;
   background-color: rgb(255, 255, 255);
   border: 2px solid #f1f3f5;
@@ -9,11 +9,11 @@
 }
 
 
-.unity-container:hover{
+.unityContainer:hover{
   transform: scale(1.04, 1.04);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-.unity-img{
+.unityIMG{
   width: 100%;
   height: 230px;
   border-radius:10px 10px 0 0;
