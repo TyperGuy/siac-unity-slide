@@ -80,8 +80,25 @@
       "abertura": "8:30",
       "encerramento": "15:30",
       "mapUrl" : "https://www.google.com/maps/place/SIAC,+Zango/@-9.0703266,13.4103285,17.05z/data=!4m5!3m4!1s0x1a520378bbdfcc65:0xa8f7860121a476eb!8m2!3d-9.0703934!4d13.4127339"
+    },
+    {
+      "name": "SIAC Cunene",
+      "adress" : "Cunene, Ondjiva",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC+-+ONDJIVA/@-17.0877788,15.7420051,17z/data=!3m1!4b1!4m5!3m4!1s0x1b946178351b664f:0x3cdbde4efc63b826!8m2!3d-17.0877839!4d15.7441938"
+    },
+    {
+      "name": "SIAC Lubango",
+      "adress" : "  Avª Dr. António Agostinho Neto - Lubango",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC+Lubango/@-14.923895,13.470574,17.63z/data=!4m5!3m4!1s0x1ba34be31c1c95ff:0xe643578e3cd20b2c!8m2!3d-14.925261!4d13.4749723"
     }
   ]
+
   
 
  
