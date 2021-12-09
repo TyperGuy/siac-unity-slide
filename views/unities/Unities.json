@@ -96,8 +96,26 @@
       "abertura": "8:30",
       "encerramento": "15:30",
       "mapUrl" : "https://www.google.com/maps/place/SIAC+Lubango/@-14.923895,13.470574,17.63z/data=!4m5!3m4!1s0x1ba34be31c1c95ff:0xe643578e3cd20b2c!8m2!3d-14.925261!4d13.4749723"
+    },
+    {
+      "name": "SIAC Kalawenda",
+      "adress" : "Centralidade do Cazenga, zona 19",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC+Kalawenda+(Cazenga+2)/@-8.856947,13.3145043,17z/data=!3m1!4b1!4m5!3m4!1s0x1a51f162bb50113b:0xe8683bda3ef853da!8m2!3d-8.8568719!4d13.316679"
+    },
+    {
+      "name": "SIAC Marconi",
+      "adress" : "Centralidade do Marconi.",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/CENTRALIDADE+MARCONI/@-8.8260381,13.2141389,14.35z/data=!4m5!3m4!1s0x1a51f317c9ea3c51:0x3f7a70d87d3c32a4!8m2!3d-8.8146556!4d13.2301756"
     }
   ]
+
+  
 
   
 
