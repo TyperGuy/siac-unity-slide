@@ -112,6 +112,14 @@
       "abertura": "8:30",
       "encerramento": "15:30",
       "mapUrl" : "https://www.google.com/maps/place/CENTRALIDADE+MARCONI/@-8.8260381,13.2141389,14.35z/data=!4m5!3m4!1s0x1a51f317c9ea3c51:0x3f7a70d87d3c32a4!8m2!3d-8.8146556!4d13.2301756"
+    },
+    {
+      "name": "SIAC Luena",
+      "adress" : "Rua direita do Hospital Geral",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC+Luena/@-11.7872934,19.9002506,17z/data=!3m1!4b1!4m5!3m4!1s0x1bd1c14f674cc143:0xd448a199ad6e76aa!8m2!3d-11.7872934!4d19.9024393"
     }
   ]
 
