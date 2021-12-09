@@ -6,3 +6,9 @@
   display:flex;
   overflow-x:auto;
 }
+.containerChild{
+  display:flex;
+  flex-direction:row;
+  align-items:end;
+  background-color:blue;
+}

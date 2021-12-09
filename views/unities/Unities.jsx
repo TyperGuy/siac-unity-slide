@@ -12,17 +12,22 @@ export default function Unities(){
     `
    return(
      <Container>
-       <div className={Styles.slideContainer}>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
-        <Unity/>
+       <div className={Styles.containerChild}>
+          <h1>Proximo</h1>
+          <div className={Styles.slideContainer}>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+            <Unity/>
+          </div>
+          <h1>Anterior</h1>
        </div>
+      
      </Container>
    )
 }
