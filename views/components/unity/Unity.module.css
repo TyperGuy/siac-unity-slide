@@ -1,5 +1,5 @@
 .unityContainer{
-  width: 340px;
+  min-width: 340px;
   background-color: rgb(255, 255, 255);
   border: 2px solid #f1f3f5;
   border-radius:10px;

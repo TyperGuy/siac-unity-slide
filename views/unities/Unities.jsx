@@ -14,6 +14,14 @@ export default function Unities(){
      <Container>
        <div className={Styles.slideContainer}>
         <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
+        <Unity/>
        </div>
      </Container>
    )
