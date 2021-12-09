@@ -5,16 +5,16 @@
       "name": "SIAC Talatona",
       "adress" : "Luanda, Talatona, Via A12",
       "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
-      "abertura": "",
-      "encerramento": "",
+      "abertura": "8:00",
+      "encerramento": "17:00",
       "mapUrl" : "https://www.google.com/maps/place/SIAC/@-8.9159981,13.1961549,17z/data=!3m1!4b1!4m5!3m4!1s0x1a51f51867f40e8b:0x8c5fddf31bb91d29!8m2!3d-8.9160034!4d13.1983436"    
     },
     {
       "name": "SIAC Cazenga ( Filda )",
       "adress" : "Av. Filda, S/N, Zona 19, Comuna do Tala Hady",
       "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
-      "abertura": "",
-      "encerramento": "",
+      "abertura": "8:00",
+      "encerramento": "15:30",
       "mapUrl" : "https://www.google.com/maps/place/SIAC+Cazenga/@-8.8540035,13.2938104,17z/data=!3m1!4b1!4m5!3m4!1s0x1a51f18b45fd13ef:0xefc935d1ee969d4e!8m2!3d-8.8540146!4d13.2960089"
     }
     ,
@@ -22,9 +22,9 @@
       "name": "SIAC Bengo",
       "adress" : "Dande, Rua direita de Caxito S/N, Bengo",
       "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
-      "abertura": "",
-      "encerramento": "",
-      "mapUrl" : "https://www.google.com/maps/place/SIAC+Cazenga/@-8.8540035,13.2938104,17z/data=!3m1!4b1!4m5!3m4!1s0x1a51f18b45fd13ef:0xefc935d1ee969d4e!8m2!3d-8.8540146!4d13.2960089"
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC/@-8.5861776,13.6483184,20.96z/data=!4m12!1m6!3m5!1s0x1a4e2208a10fc0c7:0xac1f562fa655bec1!2sSIAC!8m2!3d-8.5863159!4d13.6480816!3m4!1s0x1a4e2208a10fc0c7:0xac1f562fa655bec1!8m2!3d-8.5863159!4d13.6480816"
     }
   ]
 
