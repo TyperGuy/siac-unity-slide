@@ -56,8 +56,33 @@
       "abertura": "8:30",
       "encerramento": "15:30",
       "mapUrl" : "https://www.google.com/maps/place/SIAC+Malanje/@-9.5448641,16.3633541,17z/data=!3m1!4b1!4m5!3m4!1s0x1a4a87dfcee99595:0x8f16ee8a81678aeb!8m2!3d-9.5448367!4d16.3655064"
+    },
+    {
+      "name": "SIAC Saurimo",
+      "adress" : "Estrada do Aeroporto, Bairro Txizainga 2",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC+SAURIMO/@-9.6730786,20.4036866,16.33z/data=!4m12!1m6!3m5!1s0x1a2cde600b396df1:0x6643f95dcfb989c2!2sSIAC+SAURIMO!8m2!3d-9.6697611!4d20.4026366!3m4!1s0x1a2cde600b396df1:0x6643f95dcfb989c2!8m2!3d-9.6697611!4d20.4026366"
+    },
+    {
+      "name": "SIAC Uíge",
+      "adress" : "Estrada do Aeroporto, Bairro Txizainga 2",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/"
+    },
+    {
+      "name": "SIAC Uíge",
+      "adress" : "Estrada do Aeroporto, Bairro Txizainga 2",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/"
     }
   ]
+  
 
  
 
