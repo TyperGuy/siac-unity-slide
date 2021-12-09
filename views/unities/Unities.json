@@ -26,6 +26,14 @@
       "mapUrl" : "https://www.google.com/maps/place/SIAC/@-8.5861776,13.6483184,20.96z/data=!4m12!1m6!3m5!1s0x1a4e2208a10fc0c7:0xac1f562fa655bec1!2sSIAC!8m2!3d-8.5863159!4d13.6480816!3m4!1s0x1a4e2208a10fc0c7:0xac1f562fa655bec1!8m2!3d-8.5863159!4d13.6480816"
     },
     {
+      "name": "SIAC Benguela",
+      "adress" : "Zona A, Bairro 70 S/N",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "abertura": "8:30",
+      "encerramento": "15:30",
+      "mapUrl" : "https://www.google.com/maps/place/Siac+Benguela/@-12.6026538,13.3962558,14.08z/data=!4m5!3m4!1s0x1bafd10269de37d5:0x49f0ea9d562b4bd2!8m2!3d-12.6034351!4d13.4088563"
+    },
+    {
       "name": "SIAC Cabinda",
       "adress" : "Centralidade do Chibodo, Estrada Nacional do Subantando, Km 7, S/N",
       "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",

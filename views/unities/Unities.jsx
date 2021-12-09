@@ -7,7 +7,9 @@ export default function Unities(){
   const Container = styled.div` 
     width:100vw;
     background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
-  `
+    display:flex;
+    justify-content:center;
+    `
    return(
      <Container>
        <div className={Styles.slideContainer}>

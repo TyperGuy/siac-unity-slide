@@ -1,4 +1,6 @@
 .slideContainer{
+  width: 1200px;
+  background-color:red;
   position: relative;
   top: 200px;
 }
