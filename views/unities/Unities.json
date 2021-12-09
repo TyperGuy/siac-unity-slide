@@ -1,0 +1,16 @@
+{
+
+  "unidades" : [
+    {
+      "name": "Talatona",
+      "adress" : "Luanda, Talatona, Via A12",
+      "descriprion" : "O SIAC foi fundado com o intuito de melhorar o serviço de atendimento ao cidadão. Oferecendo todos os serviços que o cidadão precisa num só espaço físico.",
+      "latitude": "",
+      "longitude": "",
+      "mapUrl" : "https://www.google.com/maps/place/SIAC/@-8.9159981,13.1961549,17z/data=!3m1!4b1!4m5!3m4!1s0x1a51f51867f40e8b:0x8c5fddf31bb91d29!8m2!3d-8.9160034!4d13.1983436"
+    }
+  ]
+
+ 
+
+}
