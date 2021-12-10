@@ -4,7 +4,7 @@ import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
-let Theme = { 
+const Theme = { 
   "closed" : {"color": "#FF0000"},
   "opened" : { "color" : "#00FF00" }
 }
