@@ -39,7 +39,7 @@ export default function Unities(){
             { 
               file.map( (unity,id) =>{
                 return(
-                  <Unity/>
+                  <Unity unity={unity}/>
                 )
               })
             }
