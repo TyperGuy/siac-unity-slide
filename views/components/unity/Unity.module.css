@@ -11,7 +11,7 @@
   margin: 20px;
 }
 .unityContainer:hover{
-  transform: scale(1.04, 1.04);
+  transform: scale(.95, .95);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .unityIMG{
@@ -64,7 +64,7 @@
   color: #fff;
   border: 0;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
-  transform:scale(.9,.9);
+  transform:scale(1.1,1.1);
 }
 .adress{
   font-size:.7rem;

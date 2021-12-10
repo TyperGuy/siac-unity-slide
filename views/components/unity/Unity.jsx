@@ -15,10 +15,10 @@ function Unity(props){
         <h1 className={Styles.unityName}>{props.unity.name}</h1>
         <div className={Styles.adress}>
           <MdFmdGood/> 
-          <span>{props.unity.local}</span>
+          <span>{props.unity.adress}</span>
         </div>
         <hr className={Styles.unitySimpleLine}/>
-        <p className={Styles.unityDesciption}>{props.unity.desc}</p>
+        <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         
         <button className={Styles.locateBtn}>Leva-me lá</button>
       </div>   
