@@ -2,6 +2,7 @@ import React from 'react';
 import Unity from '../components/unity/Unity';
 import styled from 'styled-components';
 import Styles from './Unities.module.css';
+import file from './Unities.json';
 import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md';
 
 export default function Unities(){
@@ -35,15 +36,13 @@ export default function Unities(){
        <div className={Styles.containerChild}>
           <Circle><Mdleft/></Circle>
           <div className={Styles.slideContainer}>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
-            <Unity/>
+            { 
+              file.map( (unity,id) =>{
+                return(
+                  <Unity/>
+                )
+              })
+            }
           </div>
           <Circle><Mdright/></Circle>
        </div>
