@@ -1,6 +1,5 @@
 .slideContainer{
   width: 1360px;
-  background-color:red;
   position: relative;
   top: 200px;
   display:flex;
@@ -10,5 +9,4 @@
   display:flex;
   flex-direction:row;
   align-items:end;
-  background-color:blue;
 }
