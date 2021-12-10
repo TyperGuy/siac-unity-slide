@@ -3,8 +3,9 @@
   position: relative;
   top: 200px;
   display:flex;
-  overflow-x:auto;
+  overflow-x:hidden;
 }
+
 .containerChild{
   display:flex;
   flex-direction:row;
