@@ -4,6 +4,10 @@ import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
+let Theme = { 
+  "closed" : {"color": "#FF0000"},
+  "opened" : { "color" : "#00FF00" }
+}
 
 function Unity(props){
 
@@ -19,7 +23,7 @@ function Unity(props){
         <hr className={Styles.unitySimpleLine}/>
         <div className={Styles.schedule}>
           <div className={Styles.scheduler}><BsClockHistory/><span className={Styles.innerText}>{props.unity.abertura}</span><BsDash/><span className={Styles.innerText}>{props.unity.encerramento}</span></div>
-          <div className={Styles.scheduler}>dsddsd</div>
+          <div style={{color:'red'}} className={Styles.scheduler}>dsddsd</div>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         
@@ -27,6 +31,15 @@ function Unity(props){
       </div>   
     </div>
   );
+
+  function setState(open,closed){
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes();
+
+    if(time>=open && time <closed)
+      return Theme.opened;
+   return Theme.closed;
+  }
     
 }
 export default Unity;
