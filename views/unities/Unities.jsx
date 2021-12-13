@@ -19,7 +19,8 @@ const schedulerTheme ={
 }
 function isOpen(unity){
   var today = new Date();
-  var time = today.getHours()
+  var time = today.getHours();
+  console.log(time)
   return(time>=unity.abertura && time <unity.encerramento)
 }
 
@@ -58,7 +59,7 @@ export default function Unities(){
               file.map( (unity,id) =>{
                 return(
                     isOpen(unity) ? <Unity status={schedulerTheme.opened}unity={unity}/>
-                    :<Unity status={schedulerTheme.closed}unity={unity}/>
+                    :<Unity status={schedulerTheme.closed}unity={unity} />
                 )
               })
             }

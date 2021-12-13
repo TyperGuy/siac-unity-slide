@@ -35,7 +35,7 @@ function Unity(props){
             <BsClockHistory/>
             <span className={Styles.innerText}>{props.unity.abertura}</span>
             <BsDash/>
-            <span className={Styles.innerText}>{props.unity.encerramento}</span>
+            <span className={Styles.innerText}>{props.unity.encerramento + " " + "H"}</span>
           </div>
           <Scheduler >{props.status.status}</Scheduler>
         </div>
