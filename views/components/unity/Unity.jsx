@@ -22,8 +22,8 @@ function Unity(props){
         </div>
         <hr className={Styles.unitySimpleLine}/>
         <div className={Styles.schedule}>
-          <div className={Styles.scheduler}><BsClockHistory/><span className={Styles.innerText}>{props.unity.abertura}</span><BsDash/><span className={Styles.innerText}>{props.unity.encerramento}</span></div>
-          <div style={{color:'red'}} className={Styles.scheduler}>dsddsd</div>
+          <div style={{ border:'1px dashed #a2a1a1'}} className={Styles.scheduler}><BsClockHistory/><span className={Styles.innerText}>{props.unity.abertura}</span><BsDash/><span className={Styles.innerText}>{props.unity.encerramento}</span></div>
+          <div style={{color:'red', backgroundColor:'#ffd2c1'}} className={Styles.scheduler} >Fechado</div>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         
