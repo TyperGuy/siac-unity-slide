@@ -3,20 +3,9 @@ import Unity from '../components/unity/Unity';
 import styled from 'styled-components';
 import Styles from './Unities.module.css';
 import file from './Unities.json';
+import schedulerTheme from './schedulerTheme.json';
 import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md';
 
-const schedulerTheme ={
-  "opened" : {
-    "bGcolor" : "#DCEDC8",
-    "color" : "#03ac4a",
-    "status" : "Aberto"
-  },
-  "closed":{
-    "bGcolor" : "#ffd2c1",
-    "color" : "#e93322",
-    "status" : "Fechado"
-  }
-}
 function isOpen(unity){
   var today = new Date();
   var time = today.getHours();
@@ -71,13 +60,15 @@ export default function Unities(){
      </Container>
    )
 
+
    function rollBack(){
-    
      refContainer.current.style.backgroundColor ="red";
      console.log(refContainer.current);
+     refContainer.current.scrollLeft ="0";
    }
    function rollForward(){
      refContainer.current.style.backgroundColor ="blue";
+     refContainer.current.scrollLeft ="1360";
      console.log(refContainer.current);
   }
 
