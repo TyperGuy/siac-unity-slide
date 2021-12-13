@@ -6,14 +6,10 @@ import file from './Unities.json';
 import schedulerTheme from './schedulerTheme.json';
 import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md';
 
-function isOpen(unity){
-  var today = new Date();
-  var time = today.getHours();
-  console.log(time)
-  return(time>=unity.abertura && time <unity.encerramento)
-}
+
 
 export default function Unities(){
+  var scrollQuociente = 1360;
   const Container = styled.div` 
     width:100vw;
     background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
@@ -61,15 +57,22 @@ export default function Unities(){
    )
 
 
-   function rollBack(){
+  function rollBack(){
      refContainer.current.style.backgroundColor ="red";
      console.log(refContainer.current);
      refContainer.current.scrollLeft ="0";
-   }
+  }
    function rollForward(){
      refContainer.current.style.backgroundColor ="blue";
-     refContainer.current.scrollLeft ="1360";
+     refContainer.current.scrollLeft =refContainer.current.scrollLeft+scrollQuociente;
      console.log(refContainer.current);
+  }
+
+  function isOpen(unity){
+    var today = new Date();
+    var time = today.getHours();
+    console.log(time)
+    return(time>=unity.abertura && time <unity.encerramento)
   }
 
     
