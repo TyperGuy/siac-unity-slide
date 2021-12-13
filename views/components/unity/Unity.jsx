@@ -4,13 +4,8 @@ import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
-const Theme = { 
-  "closed" : {"color": "#FF0000"},
-  "opened" : { "color" : "#00FF00" }
-}
 
 function Unity(props){
-
   return (
     <div className={Styles.unityContainer}>
       <img className={Styles.unityIMG} src={img} alt=""/>
