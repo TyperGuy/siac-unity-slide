@@ -50,10 +50,11 @@ export default function Unities(){
     color: #F52724;
   }
   `  
+   let cont =0;
    return(
-     <Container>
+     <Container id="container">
        <div className={Styles.containerChild}>
-          <Circle><Mdleft/></Circle>
+          <Circle onClick={rollBack}><Mdleft/></Circle>
           <div className={Styles.slideContainer}>
             { 
               file.map( (unity,id) =>{
@@ -64,12 +65,22 @@ export default function Unities(){
               })
             }
           </div>
-          <Circle><Mdright/></Circle>
+          <Circle onClick={rollForward}><Mdright/></Circle>
        </div>
       
      </Container>
    )
 
+   function rollBack(){
+     const container = document.getElementById("container");
+     container.style.backgroundColor = "#fc0000";
+     console.log("clicked");
+   }
+   function rollForward(){
+    const container = document.getElementById("container");
+    container.style.backgroundColor = "#fc0000";
+    console.log("clickedder");
+  }
 
     
 }
