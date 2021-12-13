@@ -46,14 +46,6 @@ function Unity(props){
     </div>
   );
 
-  function setState(open,closed){
-    var today = new Date();
-    var time = today.getHours() + ":" + today.getMinutes();
-
-    if(time>=open && time <closed)
-      return Theme.opened;
-   return Theme.closed;
-  }
-    
+ 
 }
 export default Unity;

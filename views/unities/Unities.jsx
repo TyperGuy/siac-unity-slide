@@ -17,6 +17,13 @@ const schedulerTheme ={
     "status" : "Fechado"
   }
 }
+function isOpen(unity){
+  var today = new Date();
+  var time = today.getHours() + ":" + today.getMinutes();
+
+  return(time>=unity.abertura && time <unity.encerramento)
+}
+
 export default function Unities(){
   const Container = styled.div` 
     width:100vw;
@@ -51,7 +58,8 @@ export default function Unities(){
             { 
               file.map( (unity,id) =>{
                 return(
-                  <Unity status={schedulerTheme.opened}unity={unity}/>
+                    isOpen(unity) ? <Unity status={schedulerTheme.opened}unity={unity}/>
+                    :<Unity status={schedulerTheme.closed}unity={unity}/>
                 )
               })
             }
@@ -61,4 +69,7 @@ export default function Unities(){
       
      </Container>
    )
+
+
+    
 }
