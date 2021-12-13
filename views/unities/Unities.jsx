@@ -58,14 +58,10 @@ export default function Unities(){
 
 
   function rollBack(){
-     refContainer.current.style.backgroundColor ="red";
-     console.log(refContainer.current);
      refContainer.current.scrollLeft ="0";
   }
    function rollForward(){
-     refContainer.current.style.backgroundColor ="blue";
      refContainer.current.scrollLeft =refContainer.current.scrollLeft+scrollQuociente;
-     console.log(refContainer.current);
   }
 
   function isOpen(unity){
