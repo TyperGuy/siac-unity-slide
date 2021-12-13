@@ -17,8 +17,8 @@ function Unity(props){
     border-radius:5px;
     margin-right: 10px;
     font-size:.9rem;
-    color : ${props.scolor};
-    background-color:${props.sBgColor};
+    color : ${props.status.color};
+    background-color:${props.status.bGcolor};
   `
   return (
     <div className={Styles.unityContainer}>
@@ -32,7 +32,7 @@ function Unity(props){
         <hr className={Styles.unitySimpleLine}/>
         <div className={Styles.schedule}>
           <div style={{ border:'1px dashed #a2a1a1'}} className={Styles.scheduler}><BsClockHistory/><span className={Styles.innerText}>{props.unity.abertura}</span><BsDash/><span className={Styles.innerText}>{props.unity.encerramento}</span></div>
-          <Scheduler style={{color:'red', backgroundColor:'#ffd2c1'}} className={Styles.scheduler} >Fechado</Scheduler>
+          <Scheduler >{props.status.status}</Scheduler>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         

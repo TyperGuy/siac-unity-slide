@@ -7,12 +7,14 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
 
 const schedulerTheme ={
   "opened" : {
-    "bGcolor" : "#ffd2c1",
-    "color" : "#e93322"
+    "bGcolor" : "#DCEDC8",
+    "color" : "#03ac4a",
+    "status" : "Aberto"
   },
   "closed":{
     "bGcolor" : "#ffd2c1",
-    "color" : "#e93322"
+    "color" : "#e93322",
+    "status" : "Fechado"
   }
 }
 export default function Unities(){
@@ -49,7 +51,7 @@ export default function Unities(){
             { 
               file.map( (unity,id) =>{
                 return(
-                  <Unity unity={unity}/>
+                  <Unity status={schedulerTheme.opened}unity={unity}/>
                 )
               })
             }
