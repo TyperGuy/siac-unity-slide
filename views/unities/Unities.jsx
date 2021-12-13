@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import Unity from '../components/unity/Unity';
 import styled from 'styled-components';
 import Styles from './Unities.module.css';
@@ -50,12 +50,12 @@ export default function Unities(){
     color: #F52724;
   }
   `  
-   let cont =0;
-   return(
-     <Container id="container">
+  const refContainer = useRef(null);
+  return(
+     <Container >
        <div className={Styles.containerChild}>
           <Circle onClick={rollBack}><Mdleft/></Circle>
-          <div className={Styles.slideContainer}>
+          <div ref={refContainer} className={Styles.slideContainer}>
             { 
               file.map( (unity,id) =>{
                 return(
@@ -72,14 +72,13 @@ export default function Unities(){
    )
 
    function rollBack(){
-     const container = document.getElementById("container");
-     container.style.backgroundColor = "#fc0000";
-     console.log("clicked");
+    
+     refContainer.current.style.backgroundColor ="red";
+     console.log(refContainer.current);
    }
    function rollForward(){
-    const container = document.getElementById("container");
-    container.style.backgroundColor = "#fc0000";
-    console.log("clickedder");
+     refContainer.current.style.backgroundColor ="blue";
+     console.log(refContainer.current);
   }
 
     
