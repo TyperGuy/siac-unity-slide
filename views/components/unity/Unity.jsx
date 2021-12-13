@@ -1,11 +1,25 @@
 import React from 'react';
 import Styles from './Unity.module.css';
+import styled from 'Styled-components';
 import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
 
 function Unity(props){
+
+  const Scheduler = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding:5px 10px;
+    border-radius:5px;
+    margin-right: 10px;
+    font-size:.9rem;
+    color : ${props.scolor};
+    background-color:${props.sBgColor};
+  `
   return (
     <div className={Styles.unityContainer}>
       <img className={Styles.unityIMG} src={img} alt=""/>
@@ -18,7 +32,7 @@ function Unity(props){
         <hr className={Styles.unitySimpleLine}/>
         <div className={Styles.schedule}>
           <div style={{ border:'1px dashed #a2a1a1'}} className={Styles.scheduler}><BsClockHistory/><span className={Styles.innerText}>{props.unity.abertura}</span><BsDash/><span className={Styles.innerText}>{props.unity.encerramento}</span></div>
-          <div style={{color:'red', backgroundColor:'#ffd2c1'}} className={Styles.scheduler} >Fechado</div>
+          <Scheduler style={{color:'red', backgroundColor:'#ffd2c1'}} className={Styles.scheduler} >Fechado</Scheduler>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         

@@ -5,6 +5,16 @@ import Styles from './Unities.module.css';
 import file from './Unities.json';
 import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md';
 
+const schedulerTheme ={
+  "opened" : {
+    "bGcolor" : "#ffd2c1",
+    "color" : "#e93322"
+  },
+  "closed":{
+    "bGcolor" : "#ffd2c1",
+    "color" : "#e93322"
+  }
+}
 export default function Unities(){
   const Container = styled.div` 
     width:100vw;
