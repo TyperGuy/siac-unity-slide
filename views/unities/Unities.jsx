@@ -19,8 +19,7 @@ const schedulerTheme ={
 }
 function isOpen(unity){
   var today = new Date();
-  var time = today.getHours() + ":" + today.getMinutes();
-
+  var time = today.getHours()
   return(time>=unity.abertura && time <unity.encerramento)
 }
 
