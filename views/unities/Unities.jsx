@@ -58,10 +58,10 @@ export default function Unities(){
 
 
   function rollBack(){
-     refContainer.current.scrollLeft =-scrollQuociente;
+     refContainer.current.scrollLeft -=scrollQuociente;
   }
    function rollForward(){
-     refContainer.current.scrollLeft =+scrollQuociente;
+     refContainer.current.scrollLeft +=scrollQuociente;
   }
 
   function isOpen(unity){
