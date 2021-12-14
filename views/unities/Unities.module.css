@@ -6,7 +6,6 @@
   overflow-x:hidden;
   transition:all .5s ease-out;
   scroll-behavior: smooth;
-  background-color: red;
 }
 
 .containerChild{
