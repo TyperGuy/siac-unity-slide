@@ -14,7 +14,7 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
     justify-content:center;
     `
   const Circle = styled.div`
-  margin: 10px ;
+  margin-bottom:10px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -27,6 +27,7 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
   font-size:2.2rem;
   color: #1679B6;
   background-color: #fff;
+  z-index:1;
   &:hover{
     transform:scale(1.2);
     color: #F52724;
