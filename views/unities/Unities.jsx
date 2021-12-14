@@ -7,9 +7,6 @@ import schedulerTheme from './schedulerTheme.json';
 import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md';
 
 
-
-export default function Unities(){
-  var scrollQuociente = 340;
   const Container = styled.div` 
     width:100vw;
     background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
@@ -35,6 +32,9 @@ export default function Unities(){
     color: #F52724;
   }
   `  
+
+export default function Unities(){
+  var scrollQuociente = 340;
   const refContainer = useRef(null);
   return(
      <Container >
@@ -44,8 +44,8 @@ export default function Unities(){
             { 
               file.map( (unity,id) =>{
                 return(
-                    isOpen(unity) ? <Unity status={schedulerTheme.opened}unity={unity}/>
-                    :<Unity status={schedulerTheme.closed}unity={unity} />
+                    isOpen(unity) ? <Unity status={schedulerTheme.opened}unity={unity} key={unity.name} />
+                    :<Unity status={schedulerTheme.closed}unity={unity} key={unity.name} />
                 )
               })
             }
@@ -67,7 +67,6 @@ export default function Unities(){
   function isOpen(unity){
     var today = new Date();
     var time = today.getHours();
-    console.log(time)
     return(time>=unity.abertura && time <unity.encerramento)
   }
 

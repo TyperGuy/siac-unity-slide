@@ -5,10 +5,7 @@ import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
-
-function Unity(props){
-
-  const Scheduler = styled.div `
+  const Scheduler = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,9 +14,12 @@ function Unity(props){
     border-radius:5px;
     margin-right: 10px;
     font-size:.9rem;
-    color : ${props.status.color};
-    background-color:${props.status.bGcolor};
+    color : ${props => props.color};
+    background-color:${props => props.bGcolor};
   `
+
+function Unity(props){
+
   return (
     <div className={Styles.unityContainer}>
       <img className={Styles.unityIMG} src={img} alt=""/>
@@ -37,7 +37,7 @@ function Unity(props){
             <BsDash/>
             <span className={Styles.innerText}>{props.unity.encerramento + " " + "H"}</span>
           </div>
-          <Scheduler >{props.status.status}</Scheduler>
+          <Scheduler color={props.status.color} bGcolor={props.status.bGcolor} >{props.status.status}</Scheduler>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         
