@@ -13,3 +13,8 @@
   flex-direction:row;
   align-items:end;
 }
+
+@media screen and (max-width: 800px) {
+  
+
+}
