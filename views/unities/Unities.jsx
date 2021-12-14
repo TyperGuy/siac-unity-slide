@@ -9,7 +9,7 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
 
 
 export default function Unities(){
-  var scrollQuociente = 1360;
+  var scrollQuociente = 340;
   const Container = styled.div` 
     width:100vw;
     background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
