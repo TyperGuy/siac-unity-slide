@@ -58,7 +58,7 @@ export default function Unities(){
 
 
   function rollBack(){
-     refContainer.current.scrollLeft ="0";
+     refContainer.current.scrollLeft =refContainer.current.scrollLeft-scrollQuociente;
   }
    function rollForward(){
      refContainer.current.scrollLeft =refContainer.current.scrollLeft+scrollQuociente;
