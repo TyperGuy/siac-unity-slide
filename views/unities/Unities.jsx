@@ -51,8 +51,7 @@ export default function Unities(){
             }
           </div>
           <Circle onClick={rollForward}><Mdright/></Circle>
-       </div>
-      
+       </div> 
      </Container>
    )
 
@@ -65,9 +64,7 @@ export default function Unities(){
   }
 
   function isOpen(unity){
-    var today = new Date();
-    var time = today.getHours();
-    return(time>=unity.abertura && time <unity.encerramento)
+    return((new Date()).getHours()>=unity.abertura && (new Date()).getHours() <unity.encerramento);
   }
 
     
