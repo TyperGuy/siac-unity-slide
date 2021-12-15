@@ -1,22 +1,9 @@
 import React from 'react';
 import Styles from './Unity.module.css';
-import styled from 'Styled-components';
 import img from '../../assets/black-yellow.jpg';
 import { MdFmdGood } from 'react-icons/md';
 import {BsClockHistory,BsDash} from 'react-icons/bs';
 
-  const Scheduler = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
-    padding:5px 10px;
-    border-radius:5px;
-    margin-right: 10px;
-    font-size:.9rem;
-    color : ${props => props.color};
-    background-color:${props => props.bGcolor};
-  `
 
 function Unity(props){
 
@@ -37,7 +24,7 @@ function Unity(props){
             <BsDash/>
             <span className={Styles.innerText}>{props.unity.encerramento + " " + "H"}</span>
           </div>
-          <Scheduler color={props.status.color} bGcolor={props.status.bGcolor} >{props.status.status}</Scheduler>
+          <div className={Styles.scheduler} style={{color:props.status.color,backgroundColor:props.status.bGcolor}}>{props.status.status}</div>
         </div>
         <p className={Styles.unityDesciption}>{props.unity.descriprion}</p>
         
