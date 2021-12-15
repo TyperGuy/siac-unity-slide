@@ -6,26 +6,31 @@
   overflow-x:hidden;
   transition:all .5s ease-out;
   scroll-behavior: smooth;
-  background-color: aqua;
+  background-color:green;
 }
 
 .containerChild{
   display:flex;
   flex-direction:row;
   align-items:flex-end;
+  background-color:red;
 }
 
 @media screen and (max-width: 600px) {
 
   .slideContainer{
-    width: 330px;
+    width: 332px;
     position: relative;
     top: 200px;
     display:flex;
     overflow-x:hidden;
     transition:all .5s ease-out;
     scroll-behavior: smooth;
+ 
   }
   
+  .containerChild{
+    margin: 0px 40px;
+  }
 
 }
