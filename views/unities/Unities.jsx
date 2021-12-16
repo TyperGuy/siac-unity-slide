@@ -13,8 +13,6 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    color: #fff;
-    background-color: #dafe;
     `
   const Circle = styled.div`
   margin:10px;
