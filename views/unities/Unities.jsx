@@ -44,7 +44,6 @@ export default function Unities(){
      <Container >
        <h1 className={Styles.heading}>Encontre o SIAC mais perto de si</h1>
        <div className={Styles.containerChild}>
-          <div className={Styles.arrowContainer}><Circle onClick={rollBack}><Mdleft/></Circle>  <Circle onClick={rollForward}><Mdright/></Circle> </div>
           <div ref={refContainer} className={Styles.slideContainer}>
             { 
               file.map( (unity,id) =>{
@@ -54,6 +53,10 @@ export default function Unities(){
                 )
               })
             }
+          </div>
+          <div className={Styles.arrowContainer}>
+            <Circle onClick={rollBack}><Mdleft/></Circle> 
+            <Circle onClick={rollForward}><Mdright/></Circle> 
           </div>
         
          

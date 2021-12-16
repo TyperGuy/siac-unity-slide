@@ -10,7 +10,7 @@
   position: absolute;
   top: 100px;
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   align-items:center;
 }
 .heading{
@@ -19,6 +19,7 @@
 .arrowContainer{
   display: flex;
   flex-direction:row;
+  justify-content: space-between;
 }
 @media screen and (max-width: 375px) {
 
