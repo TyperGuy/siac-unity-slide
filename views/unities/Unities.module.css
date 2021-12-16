@@ -6,14 +6,12 @@
   overflow-x:hidden;
   transition:all .5s ease-out;
   scroll-behavior: smooth;
-  background-color:#defdef
 }
 
 .containerChild{
   display:flex;
   flex-direction:row;
   align-items:flex-end;
-  background-color:red;
 }
 
 @media screen and (max-width: 600px) {

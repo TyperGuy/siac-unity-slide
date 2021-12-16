@@ -60,10 +60,10 @@ export default function Unities(){
 
 
   function rollBack(){
-     refContainer.current.scrollLeft =0;
+     refContainer.current.scrollLeft -=scrollQuociente;
   }
    function rollForward(){
-      refContainer.current.scrollLeft = 4080;
+      refContainer.current.scrollLeft += scrollQuociente;
      console.log(refContainer.current.scrollLeft);
   }
 
