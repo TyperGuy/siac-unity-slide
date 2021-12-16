@@ -10,7 +10,6 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
   const Container = styled.div` 
     width:100vw;
     height: 350px;
-    background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -28,8 +27,8 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
   height: 30px;
   transition: transform 0.3s ease-in-out;
   font-size:2.2rem;
-  color: #1679B6;
-  background-color: #fff;
+  color: #fff;
+  background-color: #242424;
   z-index:1;
   &:hover{
     transform:scale(1.2);
