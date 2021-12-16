@@ -14,7 +14,7 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
     justify-content:center;
     `
   const Circle = styled.div`
-  margin-bottom:10px;
+  margin:10px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -35,10 +35,11 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
   `  
 
 export default function Unities(){
-  var scrollQuociente = 340;
+  var scrollQuociente = 330;
   const refContainer = useRef(null);
   return(
      <Container >
+       
        <div className={Styles.containerChild}>
           <Circle onClick={rollBack}><Mdleft/></Circle>
           <div ref={refContainer} className={Styles.slideContainer}>
@@ -51,17 +52,19 @@ export default function Unities(){
               })
             }
           </div>
-          <Circle onClick={rollForward}><Mdright/></Circle>
+          <Circle onClick={rollForward}><Mdright/></Circle> 
+         
        </div> 
      </Container>
    )
 
 
   function rollBack(){
-     refContainer.current.scrollLeft -=scrollQuociente;
+     refContainer.current.scrollLeft =0;
   }
    function rollForward(){
-     refContainer.current.scrollLeft +=scrollQuociente;
+      refContainer.current.scrollLeft = 4080;
+     console.log(refContainer.current.scrollLeft);
   }
 
   function isOpen(unity){

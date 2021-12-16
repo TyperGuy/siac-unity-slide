@@ -1,12 +1,12 @@
 .slideContainer{
-  width: 1360px;
+  width: 1320px;
   position: relative;
   top: 200px;
   display:flex;
   overflow-x:hidden;
   transition:all .5s ease-out;
   scroll-behavior: smooth;
-  background-color:green;
+  background-color:#defdef
 }
 
 .containerChild{
@@ -20,13 +20,6 @@
 
   .slideContainer{
     width: 332px;
-    position: relative;
-    top: 200px;
-    display:flex;
-    overflow-x:hidden;
-    transition:all .5s ease-out;
-    scroll-behavior: smooth;
- 
   }
   
   .containerChild{
