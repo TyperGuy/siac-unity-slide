@@ -9,9 +9,12 @@ import {MdChevronLeft as Mdleft,MdChevronRight as Mdright} from 'react-icons/md'
 
   const Container = styled.div` 
     width:100vw;
+    height: 350px;
     background:linear-gradient(90deg,#1E195A,#1679B6,#194A68);
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    color: #fff;
     `
   const Circle = styled.div`
   margin:10px;
@@ -39,9 +42,9 @@ export default function Unities(){
   const refContainer = useRef(null);
   return(
      <Container >
-       
+       <h1 className={Styles.heading}>Encontre o SIAC mais perto de si</h1>
        <div className={Styles.containerChild}>
-          <Circle onClick={rollBack}><Mdleft/></Circle>
+          <div className={Styles.arrowContainer}><Circle onClick={rollBack}><Mdleft/></Circle>  <Circle onClick={rollForward}><Mdright/></Circle> </div>
           <div ref={refContainer} className={Styles.slideContainer}>
             { 
               file.map( (unity,id) =>{
@@ -52,7 +55,7 @@ export default function Unities(){
               })
             }
           </div>
-          <Circle onClick={rollForward}><Mdright/></Circle> 
+        
          
        </div> 
      </Container>

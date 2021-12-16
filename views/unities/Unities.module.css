@@ -1,7 +1,5 @@
 .slideContainer{
   width: 1320px;
-  position: relative;
-  top: 200px;
   display:flex;
   overflow-x:hidden;
   transition:all .5s ease-out;
@@ -9,12 +7,20 @@
 }
 
 .containerChild{
+  position: absolute;
+  top: 100px;
   display:flex;
   flex-direction:row;
-  align-items:flex-end;
+  align-items:center;
 }
-
-@media screen and (max-width: 600px) {
+.heading{
+  width: 1320px;
+}
+.arrowContainer{
+  display: flex;
+  flex-direction:row;
+}
+@media screen and (max-width: 375px) {
 
   .slideContainer{
     width: 332px;
@@ -22,6 +28,7 @@
   
   .containerChild{
     margin: 0px 40px;
+    flex-direction: column;
   }
 
 }
