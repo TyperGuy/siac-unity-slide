@@ -19,6 +19,10 @@
   justify-content: space-between;
   align-self: center;
 }
+.heading{
+  align-self: flex-start;
+  color: #000;
+}
 
 @media screen and (max-width: 615px) {
 

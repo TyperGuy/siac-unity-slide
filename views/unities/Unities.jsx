@@ -42,7 +42,6 @@ export default function Unities(){
   const refContainer = useRef(null);
   return(
      <Container >
-      
        <div className={Styles.containerChild}>
           <h1 className={Styles.heading}>Encontre o SIAC mais perto de si</h1>
           <div ref={refContainer} className={Styles.slideContainer}>
