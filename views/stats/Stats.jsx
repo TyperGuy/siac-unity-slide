@@ -9,9 +9,7 @@ const Stats = (props) =>{
     <div className={Styles.statsContainer}>
       <div className={Styles.statsInnerContainer}>
         <div className={Styles.titleContainer}><h2>{StatsFile.title}</h2></div>
-        <div className={Styles.statsInfContainer}>
-          <Information/>
-        </div>
+        <Information/>
       </div>
     </div>
   )
