@@ -1,0 +1,44 @@
+
+
+@media screen and (max-width: 615px) {
+
+  .statsContainer{
+
+  }
+
+}
+
+@media screen and  (max-width:764px) and (min-width: 616px) {
+  
+}
+
+@media screen and  (min-width: 765px) and (max-width:1082px) {
+  
+}
+
+@media screen and  (min-width: 1082px) and (max-width:1560px) {
+  
+}
+
+
+
+
+@media screen and (min-width: 1562px) {  
+
+  .statsContainer{
+    width: 100%;
+    height: 200px;
+    background-color:#1679B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .statsInnerContainer{
+    width: 1320px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

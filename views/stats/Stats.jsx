@@ -4,8 +4,10 @@ import Styles from './Stats.module.css';
 const Stats = (props) =>{
 
   return(
-    <div>
-      Este é o Component de Status
+    <div className={Styles.statsContainer}>
+      <div className={Styles.statsInnerContainer}>
+        Este é o Component de Status
+      </div>
     </div>
   )
 }
