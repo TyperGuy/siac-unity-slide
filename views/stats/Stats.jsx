@@ -1,7 +1,7 @@
 
+import Styles from './Stats.module.css';
 
-
-export default  Stats = (props) =>{
+const Stats = (props) =>{
 
   return(
     <div>
@@ -9,3 +9,6 @@ export default  Stats = (props) =>{
     </div>
   )
 }
+
+
+export default  Stats;
