@@ -5,8 +5,8 @@ import Stats from '../views/stats/Stats.jsx';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Unities/>
       <Stats/>
+      <Unities/>
     </div>
   )
 }

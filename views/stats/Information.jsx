@@ -5,6 +5,13 @@ const Information = () =>{
   
   return(
       <div className={Styles.statsInfContainer}>
+            <div className={Styles.statsComponent}>
+              <div className={Styles.up}>
+                <div className={Styles.iconContainer}><Partner /></div>
+                <span className={Styles.metrics}>{Stats.partner.partners}</span>
+              </div>
+              <span className={Styles.content}>{Stats.partner.content}</span>
+            </div>
            <div className={Styles.statsComponent}>
               <div className={Styles.up}>
                 <div className={Styles.iconContainer}><Home /></div>
@@ -21,13 +28,7 @@ const Information = () =>{
               <span className={Styles.content}>{Stats.services.content}</span>
             </div>
 
-            <div className={Styles.statsComponent}>
-              <div className={Styles.up}>
-                <div className={Styles.iconContainer}><Partner /></div>
-                <span className={Styles.metrics}>{Stats.partner.partners}</span>
-              </div>
-              <span className={Styles.content}>{Stats.partner.content}</span>
-            </div>
+           
       </div>
    
   )
