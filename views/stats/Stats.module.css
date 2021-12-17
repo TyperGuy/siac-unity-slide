@@ -41,4 +41,7 @@
     flex-direction: row;
     align-items: center;
   }
+  .titleContainer{
+    width:30%;
+  }
 }
