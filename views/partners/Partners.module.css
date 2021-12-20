@@ -1,8 +1,12 @@
 .partnersContainer{
+  background-color: #efefef;
   width: 100%;
-  background-color:red;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  gap: 10px;
+  gap: 2px;
   align-items: center;
+}
+.partner{  -webkit-filter: grayscale(1);}
+.partner:hover{
+  -webkit-filter: grayscale(0);
 }

@@ -14,4 +14,4 @@ import inss from './seguranca_social.png';
 import sme from './sme.png';
 import unitel from './unitel.png';
 
-export default [agt,bai,banco_sol,bir,bpc,confianca,dtser,ensa,giant,imprensa,minjusdh,nossa_seguros,inss,sme,unitel];
+export default [agt,bai,banco_sol,bir,bpc,sme,minjusdh,ensa,unitel,imprensa,dtser,nossa_seguros,inss,confianca,giant];
