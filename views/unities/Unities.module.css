@@ -4,6 +4,7 @@
   transition:all .5s ease-out;
   scroll-behavior: smooth;
   align-self: center;
+  gap: 11px;
 }
 
 .containerChild{
