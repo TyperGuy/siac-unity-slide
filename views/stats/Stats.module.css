@@ -1,15 +1,15 @@
 .statsContainer{
   width: 100%;
-  height: 200px;
+  padding: 20px 0;
   background-color:#1679B6;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+
 }
 .statsInnerContainer{
   width: 1320px;
-  height:100%;
   display: flex;
   justify-content:space-between;
   align-items:center;
@@ -18,13 +18,39 @@
 
 @media screen and (max-width: 615px) {
 
-  .statsContainer{
-
+  .statsInnerContainer{
+    width:332px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .statsInfContainer{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
   }
 
 }
 
 @media screen and  (max-width:764px) and (min-width: 616px) {
+  .statsInnerContainer{
+    width:332px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .statsInfContainer{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
   
 }
 
@@ -48,7 +74,7 @@
 
 @media screen and  (min-width: 1082px) and (max-width:1560px) {
   .statsInnerContainer{
-    width:995px;;
+    width:1000px;;
     height:100%;
     display: flex;
     flex-direction: row;
@@ -58,6 +84,7 @@
   .statsInfContainer{
     display: flex;
     flex-direction:row;
+    justify-content:space-between;
   }
 
 }
@@ -83,7 +110,6 @@
   }
   .statsInfContainer{
     width: 60%;
-    height:100%;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -116,7 +142,6 @@
   justify-content: center;
   align-items: center;
   font-size:1.9rem;
-  
 }
 .metrics{
   font-size:2rem;
