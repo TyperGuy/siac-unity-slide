@@ -5,9 +5,9 @@ const Partners =()=>{
   return(
     <div className={Styles.partnersContainer}>
      {
-      IMgs.map((partners)=>{
+      IMgs.map((partner)=>{
         return(
-          <Partner/>
+          <Partner img={partner}/>
         )
       })
     }

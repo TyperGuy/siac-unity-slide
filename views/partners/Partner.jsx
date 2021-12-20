@@ -1,8 +1,8 @@
 import IMG from './parceiros/minjusdh.png';
-const Partner = () =>{
+const Partner = (props) =>{
   return(
     <div style={{width:"100%",height:200,backgroundColor:"#fafa",display: "flex",justifyContent:"center",alignItems: "center"}}>
-      <img src={IMG} style={{maxWidth:350}} alt="" />
+      <img src={props.img} style={{maxWidth:300}} alt="" />
 
     </div>
   )
