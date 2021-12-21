@@ -16,17 +16,21 @@
 @media screen and (max-width: 615px) {
 
   .partnersContainer{
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
   }
   
 }
 
 @media screen and  (max-width:764px) and (min-width: 616px) {
-  
+  .partnersContainer{
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 @media screen and  (min-width: 765px) and (max-width:1082px) {
-  
+  .partnersContainer{
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 @media screen and  (min-width: 1082px) and (max-width:1560px) {
