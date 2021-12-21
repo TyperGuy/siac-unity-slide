@@ -10,7 +10,7 @@ import giant from './giant.png';
 import imprensa from './imprensa.png';
 import minjusdh from './minjusdh.png';
 import nossa_seguros from './nossa_seguros.png';
-import inss from './seguranca_social.png';
+import inss from './inss.png';
 import sme from './sme.png';
 import unitel from './unitel.png';
 
