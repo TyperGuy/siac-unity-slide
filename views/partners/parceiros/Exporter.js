@@ -13,5 +13,10 @@ import nossa_seguros from './nossa_seguros.png';
 import inss from './inss.png';
 import sme from './sme.png';
 import unitel from './unitel.png';
+import cinfotec from './cinfotec.png';
+import ende from './ende.png';
+import epal from './epal.png';
+import inefop from './inefop.png';
+import uimo from './uimo.png';
 
-export default [agt,bai,banco_sol,bir,bpc,sme,minjusdh,ensa,unitel,imprensa,dtser,nossa_seguros,inss,confianca,giant];
+export default [agt,bai,banco_sol,bir,bpc,sme,minjusdh,ensa,unitel,imprensa,dtser,nossa_seguros,inss,confianca,giant,cinfotec,ende,epal,inefop,uimo];
