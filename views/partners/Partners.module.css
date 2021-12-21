@@ -6,7 +6,34 @@
   gap: 2px;
   align-items: center;
 }
-.partner{  -webkit-filter: grayscale(1);}
+.partner{  -webkit-filter: grayscale(0);}
 .partner:hover{
-  -webkit-filter: grayscale(0);
+  -webkit-filter: grayscale(1);
 }
+
+
+
+@media screen and (max-width: 615px) {
+
+  .partnersContainer{
+    grid-template-columns: auto auto auto auto;
+  }
+  
+}
+
+@media screen and  (max-width:764px) and (min-width: 616px) {
+  
+}
+
+@media screen and  (min-width: 765px) and (max-width:1082px) {
+  
+}
+
+@media screen and  (min-width: 1082px) and (max-width:1560px) {
+  .partnersContainer{
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+
+
