@@ -10,22 +10,7 @@
 .partner:hover{
   -webkit-filter: grayscale(1);
 }
-.upContainer{
-  width:100%;
-  background-color: red;
-  height:200px;
-  display: flex;
-  flex-direction:row;
-}
-.img{
-  height:100%;
-  transform: scaleX(-1);
-}
-.contentContainer{
-  background:linear-gradient(90deg,#efefef,rgba(255,255,255,0));
-  width:80%; 
-  z-index:1;
-}
+
 
 
 
